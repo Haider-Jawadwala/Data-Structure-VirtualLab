@@ -1,0 +1,86 @@
+#wrapper {
+    padding-top: 2%;
+}
+
+#canvas-wrapper {
+  padding-bottom: 15%;
+}
+
+#question {
+    text-align: justify;
+    padding-bottom: 2%;
+}
+
+.comment-box {
+    margin: auto;
+    height: 13vh;
+}
+
+.slidecontainer {
+    padding-top: 0%;
+}
+
+.buttons-wrapper {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#pop-buttons-wrapper {
+   text-align: center;
+}
+
+#buttondiv1 {
+   padding-bottom: 2%;
+}
+
+#enque-deque-btns {
+  padding-bottom: 1%;
+}
+
+#stackArray {
+    display: block; 
+    width: 100%;
+    height: 50%;
+}
+
+#linkedlist {
+    display: block; 
+    margin: 0 auto; 
+    width: 100%;
+    height: 100%;
+}
+
+#stack_1, #stack_2, #stack_3 {
+    display: inline-block;
+}
+
+#twostacks, #threestacks {
+    margin: 0 auto;
+    width: 100%;
+    height: 60%;
+}
+
+#stackA, #stackB, #stackC{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#queue,#queue_ex {
+    display: block;
+    height: 20%;
+    width: 40%;
+}
+
+#queue_2, #queue_2_ex {
+    display: block;
+    float: left;
+    height: 20%;
+    width: 40%;
+}
+
+#queueArray {
+    display: block; 
+    margin-left: 5%; 
+    width: 100%;
+    height: 50%;
+}

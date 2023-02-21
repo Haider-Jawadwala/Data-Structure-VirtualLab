@@ -1,0 +1,113 @@
+body {
+  font-family : "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.button-input {
+  border-radius: 500px;
+  width: 9vw;
+  height: 3vw;
+  background-color: #288ec8;
+  border: none;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  /* font-size: 1.4vw; */
+  font-family: arial;
+}
+.button-input:hover {
+  background-color:gray;
+  cursor:pointer;
+}
+
+
+.text-box {
+  width: 15vw;
+  height: 3vw;
+  background-color: rgb(235, 235, 235);
+  border-radius: 500px;
+  /* font-size: 1.4vw; */
+  text-align: center;
+}
+.text-box:hover {
+  cursor: auto;
+}
+
+#AllInput {
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.instruction-box {
+  margin-top: 1vh;
+  position: relative;
+  width: 100%;
+  transition: width 0.2s ease-out;
+  border: 0.1vw solid grey;
+  font-family: arial;
+  /* font-size: 1.5vw; */
+  z-index : 10;
+}
+
+.collapsible {
+  background-color: Transparent;
+  color: "grey";
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  /* font-size: 1.5vw; */
+  font-weight: bold;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.collapsible::-moz-focus-inner {
+  border: 0;
+}
+
+.active, .collapsible:hover {
+  background-color: "white";
+}
+
+.collapsible:after {
+  content: '\25BE';
+  color: "grey";
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\25B4";
+}
+
+.content {
+  padding: 0 1.8vw;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: "white";
+}
+.comment-box {
+  position: relative;
+  height: 10vh;
+  left: 34%;
+  top: 17%;
+  float: middle;
+  padding: 1vw;
+  width: 30vw;
+  margin-top: 1%;
+  font-family: arial;
+  /* font-size: 1.5vw; */
+  text-align: center;
+}
+
+
+#mainContent {
+  text-align : center ;
+}
+
+#canvas {
+  display : inline-block ;
+}

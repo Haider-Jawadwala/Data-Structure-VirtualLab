@@ -1,0 +1,79 @@
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>BST Insert</title>
+  <link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="style_main.css" rel="stylesheet">
+  
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" media="screen">    
+	<link rel="stylesheet" href="bstyle.css">
+	<link rel="stylesheet" href="jquery-ui-1.8.11.custom.css">
+        <link rel="stylesheet" href="common-styles-responsive.css">	
+		
+</head>
+
+
+<body onload="init();" class="VisualizationMainPage">
+ <div class="strust1">
+	    <img class="strust" width="100" height="100" src="https://kjsieit.somaiya.edu.in//assets/arigel_general/img/homepage/Trust.svg" >
+		<a href="https://kjsieit.somaiya.edu.in/en" ><img src="https://kjsieit.somaiya.edu.in/assets/kjsieit/images/Logo/kjsieit-logo.svg" alt="" class="mobile"></a>
+	</div>
+	<nav class="navbar navbar-default visible-lg" role="navigation">
+  		<!-- Brand and toggle get grouped for better mobile display -->
+  		<div class="navbar-header">
+  			<a class="navbar-brand" href="F:\college\pbl\data-structures-responsive-lab-master\src\lab\index.html">DATA STRUCTURE VIRTUAL LAB</a>
+  		</div>
+
+  		<!-- Collect the nav links, forms, and other content for toggling -->
+  		<div class="desk-nav">
+  			<ul class="nav navbar-nav">
+  				<li style="border-right: 1.5px solid white;"><a href="F:\college\pbl\data-structures-responsive-lab-master\src\lab\index.html">Home</a></li>
+  				<li style="border-right: 1.5px solid white;"><a href="..\about.html">About this lab</a></li>
+  			</ul>
+  		
+  		</div>
+  	</nav>
+		<div align="center" id="mainContent" style="margin-top:30px;">
+		<div id="algoControlSection">
+                  <div id="AllInput">
+                    <input type="text" class="text-box" placeholder="Enter Number" id="bst-demo-insert-text" size="4">
+                    <button class="button-input" id="bst-demo-insert-btn">Insert</button>
+		    <button class="button-input" id="bst-demo-reset-btn">Reset</button>
+                  </div>
+		</div>
+		
+                <div class="comment-box" style="height:12vh;">
+			<b>Observations</b>
+   			<p id="ins"></p>
+		</div>
+
+			<!-- Drawing canvas where all animation is done.  Note:  can be resized in code -->
+			<canvas id="canvas" width="1000" height="500"></canvas>
+			<div hidden id="generalAnimationControlSection" class="sr-only">
+				<table id="GeneralAnimationControls"> <td><input type="Button" value="Skip Back" disabled=""></td><td><input type="Button" value="Step Back" disabled=""></td><td><input type="Button" value="Pause"></td><td><input type="Button" value="Step Forward" disabled=""></td><td><input type="Button" value="Skip Forward" disabled=""></td><td><table><tr><td><div display="inline-block" float="left" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="width:200px"><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 65%;"></a></div></td></tr><tr><td align="center">Animation Speed</td></tr></table></td><td> w:</td><td><input type="Text" value="1000" size="4"></td><td>       h:</td><td><input type="Text" value="500" size="4"></td><td><input type="Button" value="Change Canvas Size"></td><td><input type="Button" value="Move Controls"></td></table>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="jquery-ui-1.8.11.custom.min.js"></script>
+
+	<script type="text/javascript" src="CustomEvents.js"> </script>
+	<script type="text/javascript" src="UndoFunctions.js"> </script>
+	<script type="text/javascript" src="AnimatedObject.js"> </script>
+	<script type="text/javascript" src="AnimatedLabel.js"> </script>
+	<script type="text/javascript" src="AnimatedCircle.js"> </script>
+	<script type="text/javascript" src="AnimatedRectangle.js"> </script>
+	<script type="text/javascript" src="AnimatedLinkedList.js"> </script>
+	<script type="text/javascript" src="HighlightCircle.js"> </script>
+	<script type="text/javascript" src="Line.js"> </script>
+	<script type="text/javascript" src="ObjectManager.js"> </script>
+	<script type="text/javascript" src="AnimationMain.js"> </script>
+	<script type="text/javascript" src="Algorithm.js"> </script>
+	<script type="text/javascript" src="bstInsert.js"> </script>
+        <script src="instruction-box.js"></script>
+        <script src="iframeResize.js"></script>
+
+
+</body></html>
