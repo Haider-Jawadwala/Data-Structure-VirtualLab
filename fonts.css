@@ -1,0 +1,45 @@
+@font-face {
+font-family:  navbar-brand;
+src: url(fonts/SourceSansPro-Black.otf);
+}
+
+@font-face {
+font-family: cardName;
+src: url(fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+font-family: navbar-nav;
+src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+font-family: experiment-description;
+src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+font-family: content;
+src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+.navbar-brand {
+	font-family: navbar-brand;
+}
+
+.experiment-title {
+	font-family: cardName;
+}
+
+.navbar-nav {
+	font-family: navbar-nav;
+}
+
+.experiment-description, .experiment-outcome {
+	font-family: experiment-description;	
+}
+
+p, li {
+	font-family: content;	
+}
+
